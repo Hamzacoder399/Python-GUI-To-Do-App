@@ -1,59 +1,72 @@
-# Python-Utility-Calculator-CLI-
-# Command-Line Calculator
 
-A simple Python command-line calculator that supports multiple menus and submenus for basic arithmetic operations including:
+# Python-GUI-To-Do-App
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Modulo
-- Floor Division
-- Handles edge cases like division by zero
+📝 Python To-Do List App
+A simple yet visually appealing To-Do List GUI built using tkinter. This app lets users create, update, and manage tasks with descriptions. It includes modern UI elements, date display, and even plays system sounds for interaction feedback.
 
-## 🔁 Menu Navigation System
+✅ Features
+🗂️ Add, edit, and remove tasks
 
-The program uses a looping structure with dynamic submenus. Users can navigate through different operation menus and submenus, and return to previous menus as needed. The logic ensures the menu stays active until the user exits.
+📄 Each task has a title and description
 
-## ✅ Features
+📅 Displays current date
 
-- Interactive CLI-based menu system
-- Supports chained navigation between menus
-- Validates input and handles exceptions (e.g., division/modulo by 0)
-- Keeps returning to submenu after a task is completed
-- Clean, tested and ready-to-use code
-- Has multiple converters; Temperature, Mass and Length Converters.
+🔔 Plays system sounds on actions (optional)
 
-## 🖥 How to Run
+🎨 Clean, user-friendly interface
 
-1. Make sure Python is installed on your system. (Python version at least 3.6 and above)
-2. Clone or download the project.
-3. Open a terminal and run: 
+🔼 Scroll support for multiple tasks
 
-```bash
-py calculator.py
+🚀 Technologies Used
+Python
 
-Main Menu:
-1; Basic Arithmetic
-2; Length Converter
-3; Mass Converter
-4; Length Converter
-0; Exit
+tkinter (GUI framework)
 
-> 1
+datetime (for showing current date)
 
-Basic Arithmetic:
-1. Add
-2. Subtract
-3. Multiply
-4. Divide
-5. Remainder (Mod)
-6. Floor Division 
-7. Power
-8. Back (change menu)
+winsound (for system alert sounds — Windows only)
 
-> 4
+💻 How to Run
+Clone the repository:
 
-Enter first number: 10  
-Enter second number: 0  
-Dividing by zero (0) is not allowed.
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/todo-list-python.git
+cd todo-list-python
+Run the script:
+
+bash
+Copy
+Edit
+python todo.py
+🔊 Sound Support (Optional)
+The app uses winsound.PlaySound() for system alert sounds when tasks are added, completed, or deleted.
+
+⚠️ Works only on Windows. On Linux/macOS, remove or replace the sound code.
+
+🛠️ Project Structure
+bash
+Copy
+Edit
+todo-list-python/
+│
+├── todo.py         # Main application file
+├── README.md       # Project overview and setup instructions
+└── assets/         # (Optional) Icons, sounds, or screenshots
+📌 Future Improvements
+✅ Save tasks locally using JSON or pickle
+
+☁️ Add persistent storage (SQLite or Firebase)
+
+📱 Convert to mobile app using Kivy or PyQt
+
+🌗 Add dark mode support
+
+📜 License
+This project is open-source under the MIT License.
+
+🙌 Acknowledgements
+Inspired by productivity apps like Microsoft To-Do and Google Tasks.
+
+Built as part of Python learning and GUI practice.
