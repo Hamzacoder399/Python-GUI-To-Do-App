@@ -53,7 +53,7 @@ todo-list-python/
 │
 ├── todo.py         # Main application file
 ├── README.md       # Project overview and setup instructions
-└── assets/         # (Optional) Icons, sounds, or screenshots
+└── assets/         # Icons, sounds, or screenshots
 📌 Future Improvements
 ✅ Save tasks locally using JSON or pickle
 
